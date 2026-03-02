@@ -9,7 +9,7 @@ Compiling llama.cpp from source with native CPU optimizations eliminates wrapper
     • RAM: 12 GiB (reported as 11 GiB usable), which is sufficient for 4B–7B quantized LLMs. 
     • GPU: Intel Iris Xe (integrated, no dedicated GPU), so Ollama runs purely on CPU—still viable with quantized models. 
     • OS: Debian (as confirmed by your environment), well-suited for this workload. 
-    * This is a modern, capable ultrabook for local (CPU-only) SLM experimentation. The i7-1165G7’s AVX-512 support (visible in CPU flags) accelerates matrix operations, and 12 GiB RAM comfortably handles 7B and 8B models. I averaged ~390% CPU usage with full utilization of 4 physical cores during inference. 
+### This is a modern, capable ultrabook for local (CPU-only) SLM experimentation. The i7-1165G7’s AVX-512 support (visible in CPU flags) accelerates matrix operations, and 12 GiB RAM comfortably handles 7B and 8B models. I averaged ~390% CPU usage with full utilization of 4 physical cores during inference. 
 ---
 
 ## What Is the Difference Between llama.cpp and Ollama?
